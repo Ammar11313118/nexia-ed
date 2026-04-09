@@ -1,4 +1,9 @@
 {
-  "buildCommand": "npx vite build",
-  "outputDirectory": "dist"
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "installCommand": "npm install",
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
