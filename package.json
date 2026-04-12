@@ -12,9 +12,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "bash build.sh",
-    "preview": "vite preview",
-    "postinstall": "chmod +x node_modules/.bin/* build.sh 2>/dev/null || true"
+    "build": "node build.js",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.7.0",
