@@ -201,13 +201,6 @@ body {
         height: 160px;
     }
 }
-@media (min-width: 0px) and (max-width: full) {
-    body{
-        overflow-x: hidden;
-        width: 100%;
-        max-width: 100px;
-    }
-}
 .carousel-item {
     min-width: 180px;
   flex-shrink: 0;
